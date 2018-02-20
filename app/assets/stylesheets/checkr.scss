@@ -1,0 +1,202 @@
+#checkrpagetop {
+	position: relative;	
+	height: 18%;
+	width: 100%;
+	color: white;
+	background-color:#649DEE;
+	background-size: cover;
+	
+
+}
+
+#toppagebackground {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+		
+}
+#navbarcheckr1 {
+	width: 64%;
+	height: 7%;	
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+    margin-right: auto;
+    line-height:350%;
+    font-size: 0.7em;
+
+}
+
+.toplinks {
+	margin-left: 3%;
+	text-decoration:none; 
+	color: white;
+	font-opacity: 1;
+}
+
+.toplinks:hover {
+	opacity:0.7;
+}
+
+
+
+#navbarcheckr2 {
+	height: 6%;
+	width: 64%;
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+    white-space: nowrap;
+
+}
+
+#middle_navbar2 {
+	width: 30%
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    opacity:0.7;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#sitename {
+	font-size: 2em;
+	font-style: bold;
+	margin-right: 2%;
+}
+
+
+
+#lien_get_started {
+	line-height: 200%;
+	float: right;
+	border: 3px rgb(224, 190, 45) solid;
+	width: 12%;
+	text-align: center
+	 
+	
+}
+
+#lien_get_started:hover{
+	background-color: rgb(224, 190, 45);
+	
+}
+
+
+
+#lien_get_started a{
+	text-decoration:none;
+	color: white;
+	font-size: 0.7em;
+
+}
+
+#lien_login {
+	line-height: 240%;
+	margin-right: 2%;
+}
+
+#lien_login:hover {
+	opacity:0.7;
+}
+
+#lien_login a {
+	text-decoration:none;
+	color: white;
+}
+
+#middletoppage {
+	width: 64%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%
+}
+
+#toppageleft {
+	width: 50%;
+    height: 100%;
+    
+}
+#toppageright {
+	width: 50%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#middle_top_page_text1 {
+	font-size: 1.8em;
+	font-style: bold;
+	margin-top: 15%;
+}
+
+.middle_top_page_text2 {
+
+}
+
+.top_left_bouton {
+	margin-top: 10%;
+	height: 30%;
+}
+
+.top_left_bouton a {
+	display:block;
+	width:150px;
+	line-height:50px;
+	border-radius: 5px;
+	text-align:center;
+	vertical-align:middle;
+	background-color: rgb(224, 190, 45);
+	color:white;
+	text-decoration:none;
+}
+.top_left_bouton a:hover {
+	opacity: 0.8;
+}
